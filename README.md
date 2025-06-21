@@ -62,3 +62,19 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Documentations
+
+Setelah meng-clone project, masuk ke dalam folder project lalu buka terminal
+
+Jalankan perintah php artisan storage:link
+
+Salin file .env.example sehingga menjadi file baru bernama .env.example.copy, lalu ubah namanya menjadi .env
+
+Buka file .env, ubah bagian DB_DATABASE=laravel menjadi DB_DATABASE=db_ganirohan
+
+Buat database di browser, buka situs localhost/phpmyadmin, lalu buat database baru dengan nama db_ganirohan
+
+Buka VSCode, buka terminal, jalankan perintah php artisan migrate
+
+Setelah itu, jalankan php artisan serve dan buka alamat localhost:8000/posts atau klik URL 127.0.0.1:8000/posts
